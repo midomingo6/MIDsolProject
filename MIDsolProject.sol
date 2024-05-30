@@ -10,13 +10,11 @@ contract MIDsolProject {
     mapping(address => uint) public balances;
 
     function mint(address _address, uint _value) public {
-        require(_value > 0, "Insufficient value to mint");
         totalSupply += _value;
         balances[_address] += _value;
     }
 
     function burn(address _address, uint _value) public {
-        require(_value > 0, "Insufficient value to burn");
         require(balances[_address] >= _value, "Insufficient balance to burn");
         totalSupply -= _value;
         balances[_address] -= _value;
