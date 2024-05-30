@@ -1,14 +1,14 @@
-#MIDsolProject
+# MIDsolProject
 
 This code is intended to create a basic token on the Ethereum blockchain. It includes functionalities for burning tokens, minting new ones, and checking balances.
 
-##Description
+## Description
 
 This code serves as an illustration of the essential concepts involved in creating and managing tokens on the Ethereum blockchain.
 
-##Getting Started 
+## Getting Started 
 
-###Executing program
+### Executing program
 
 Use Remix, an online Solidity IDE to execute this program. Visit the Remix website at https://remix.ethereum.org/ to get started.
 
@@ -42,31 +42,31 @@ To compile the code, navigate to the Solidity Compiler tab in the left sidebar. 
 Once you've compiled the code, proceed to the "Deploy & run transactions" tab located on the left side of the Solidity Compiler tab. Click the "Deploy" button to deploy the contract. After the deployment is complete, you can interact with the contract using the Remix interface. 
 Here are the steps to execute the functions:
 
-###Minting Tokens
+### Minting Tokens
 
 Find the 'mint' function in the deployed contract section.
 Input the address where you want to mint the tokens and specify the number of tokens to mint.
 Click the "transact" button to execute the mint function.
 
-###Burning Tokens
+### Burning Tokens
 
 Find the 'burn' function in the deployed contract section.
 Input the address where you want to burn the tokens and specify the number of tokens to burn.
 Click the "transact" button to execute the burn function.
 
-###Checking Balances
+### Checking Balances
 
 Find the balances mapping in the deployed contract section.
 Input the address for which you want to check the balance.
 Click the "call" button to retrieve the balance of the specified address.
 
-##Authors
+## Authors
 
 Contributors names and contact info
 
 Maurice Ivan Domingo
 midchain666@gmail.com
 
-##License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
