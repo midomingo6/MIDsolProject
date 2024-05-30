@@ -65,6 +65,7 @@ Click the "call" button to retrieve the balance of the specified address.
 Contributors names and contact info
 
 Maurice Ivan Domingo
+
 midchain666@gmail.com
 
 ## License
