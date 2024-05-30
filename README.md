@@ -31,7 +31,7 @@ contract MIDsolProject {
         totalSupply -= _value;
         balances[_address] -= _value;
     }
-}
+    }
 
 To compile the code, navigate to the Solidity Compiler tab in the left sidebar. Ensure that the complier option is set to 0.8.18, and then click the "Compile" button labeled with ".sol".
 
